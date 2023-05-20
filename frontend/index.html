@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,30 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <main>
+
+        <form class="add-form">
+            <label>
+                Name Nakama
+                <input type="text" placeholder="Cardoso Silva" class="input-task" id="nakamaName">
+            </label>
+            <label>
+                Partida
+                <input type="text" placeholder="15 de janeiro de 2000" class="input-task" id="dataPartida">
+            </label>
+            <label>
+                Personagem Favorito
+                <input type="text" placeholder="Portgas D. Ace" class="input-task" id="persFav">
+            </label>
+            <label for="">
+                Homenagem
+                <textarea name="" cols="30" rows="1" placeholder="Homenagem ao Nakama" id="nakamaHomage"></textarea>
+            </label>
+            <button type="submit">+</button>
+        </form>
 
         <table>
             <thead>
@@ -26,7 +48,8 @@
                     <td>12 de janeiro de 2000</td>
                     <td>Gol D. Roger</td>
                     <td>
-                        <textarea cols="45" rows="3" readonly>Você foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de vocêVocê foi bravo até o fim, irmão. Lembrarei sempre de você</textarea>
+                        <textarea cols="45" rows="5"
+                            readonly>Você foi bravo até o fim, irmão. Lembrarei sempre de você</textarea>
                     </td>
                 </tr>
             </tbody>
@@ -36,4 +59,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

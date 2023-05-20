@@ -22,6 +22,54 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
 }
 
+
+.add-form {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: #0099ff;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form textarea {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    overflow: hidden;
+    font-weight: 500;
+    color: #333;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -42,7 +90,7 @@ td:nth-child(1),td:nth-child(3) {
     font-weight: 600;
 }
 
-textarea {
+table textarea {
     display: inline-flex;
     width: 100%;
     resize: both;
@@ -56,7 +104,7 @@ textarea {
 }
 
 @media screen and (min-width: 1163px) {
-    textarea {
+    table textarea {
         width: 90%;
         resize: vertical;
         outline: none;
